@@ -1,4 +1,4 @@
 const hellWord = () => {
-    console.log("Arrow function works!");
+	console.log("Arrow function works!");
 }
 hellWord();
