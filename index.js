@@ -108,9 +108,24 @@ function RestExample(a, ...b) {
 RestExample(1, 2, 3, 4, 5, );
 
 // Understanding Spread Operator
+console.log('Understanding Spread Operator');
 
 function SpreadOperator(a, b, c) {
 	console.log(a, b, c);
 }
 let a = [1, 2, 3];
 SpreadOperator(...a);
+
+// Understanding Destructuring Objects and Arrays
+function DestructuringExamples() {
+	console.log('Understanding Desctructuring');
+	let [a, b] = [1, 2];
+	console.log(a, b);
+
+	//Interchanging the values
+	[a, b] = [b, a];
+
+	console.log(a, b);
+}
+
+DestructuringExamples();
